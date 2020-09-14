@@ -28,14 +28,11 @@ body {
       background: #808080;
       border-top: 50px solid #000;
       border-right: 50px; 
+      width: 100px;
+      height: 100px;
+      position: relative;
+      background-color: red;
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
   }
-
-.div {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-}
