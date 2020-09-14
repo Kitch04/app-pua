@@ -16,6 +16,19 @@ body {
       margin: 0;
       padding: 0;
   }
+
+  div
+  {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  }
+ 
+
   .logo
   {
       position: absolute;
